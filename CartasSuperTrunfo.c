@@ -7,6 +7,34 @@
 //Teste larissa
 
 int main() {
+    // cadastro de cartas
+    int população, pontos_turisticos;
+    float area;
+    float pib;
+    
+    printf("digite a população da cidade: \n");
+    scanf("%d", &população);
+
+    printf("digite a area da cidade \n");
+    scanf("$f", &area);
+
+    printf("digite o pib da cidade \n");
+    scanf ("%s", &pib);
+    
+    printf("digite o numero de pontos turisticos da cidade \n");
+    scanf("%d", &pontos_turisticos);
+
+    printf("Numero da Populçao: %s - pontos turisticos:; %d", população, pontos_turisticos);
+    printf("area: %d - pib: %f", area, pib);
+
+    return 0;
+
+
+    
+    
+    
+    
+    
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -18,5 +46,5 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
-}
+
+
