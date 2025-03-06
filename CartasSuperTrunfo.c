@@ -28,8 +28,7 @@ int main() {
     printf("area: %d - pib: %f", area, pib);
 
     return 0;
-
-
+}
     
     
     
