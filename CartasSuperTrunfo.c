@@ -26,13 +26,21 @@ int main() {
 
     printf("Numero da Populçao: %s - pontos turisticos:; %d", população, pontos_turisticos);
     printf("area: %d - pib: %f", area, pib);
+// PROFESSORES NÃO ESTOU CONSGUINDO FAZER ESSA ATIVIDADE CORRETAMENTE, POR FAVOR PEÇO AJUDA SE PUDEREM PORQUE ESTA DIFICIL, OBRIGADO
+    float = população / area;
+    printf("densidade populacional: %f",\n);
+
+    float = pib / população;
+    printf("pib per capita: %f",\n);
 
     return 0;
 }
     
     
     
-    
+
+    // declaacao de variaveis
+
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
